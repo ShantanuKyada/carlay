@@ -131,7 +131,7 @@ export default function VehicleDetail() {
               </div>
             )}
             <p className="mt-3 text-xs text-steel-500">
-              Illustrative photo{credits.length > 1 ? 's' : ''}: {credits.map((c) => `${c.author} (${c.licence})`).join(', ')} via Wikimedia Commons. <Link to="/image-credits" className="underline underline-offset-2">Credits</Link>
+              Illustrative photo{credits.length > 1 ? 's' : ''}: {credits.map((c) => `${c.author} (${c.licence})`).join(', ')} via Wikimedia Commons.
             </p>
 
             {/* Key specs strip */}

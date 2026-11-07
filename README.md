@@ -37,6 +37,6 @@ Photos: the licensed demo photos are already bundled in `public/demo/`. If any a
 | Sample vehicles | `src/data/vehicles.ts` |
 | Sample enquiries, test drives, requests, team names | `src/data/seed.ts` |
 | Colours, fonts | `src/index.css` |
-| Image licences / credits | `src/data/imageCredits.ts` (shown at `/image-credits`) |
+| Image licences / credits | `src/data/imageCredits.ts` (shown under each car's photos) |
 
 Stack: React 19, TypeScript, Vite, Tailwind CSS v4, React Router, Lucide icons, self-hosted fonts (Inter, Inter Tight, Michroma). State lives in React context and is persisted to `localStorage`.

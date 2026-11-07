@@ -27,7 +27,6 @@ const cols = [
     links: [
       { to: '/about', label: 'About' },
       { to: '/contact', label: 'Contact' },
-      { to: '/image-credits', label: 'Image credits' },
       { to: '/admin', label: 'Team dashboard (demo)' },
     ],
   },

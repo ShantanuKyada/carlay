@@ -12,7 +12,6 @@ import TestDrive from './pages/site/TestDrive'
 import FindMyCar from './pages/site/FindMyCar'
 import About from './pages/site/About'
 import Contact from './pages/site/Contact'
-import ImageCredits from './pages/site/ImageCredits'
 import NotFound from './pages/site/NotFound'
 
 const Overview = lazy(() => import('./pages/admin/Overview'))
@@ -63,7 +62,6 @@ export default function App() {
                 <Route path="find-my-car" element={<FindMyCar />} />
                 <Route path="about" element={<About />} />
                 <Route path="contact" element={<Contact />} />
-                <Route path="image-credits" element={<ImageCredits />} />
                 <Route path="*" element={<NotFound />} />
               </Route>
               <Route path="admin" element={<AdminLayout />}>
