@@ -93,7 +93,9 @@ export function SiteFooter() {
       <div className="border-t border-white/5">
         <div className="container-x flex flex-col gap-2 py-6 text-xs text-steel-500 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} Carlay, Pune. Concept prototype — listings, prices and customer data shown are samples.</p>
-          <p>Photos: Wikimedia Commons contributors, illustrative only.</p>
+          <p>
+            Powered by <span className="font-medium text-steel-300">VSCodesLabs</span>
+          </p>
         </div>
       </div>
     </footer>
